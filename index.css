@@ -69,6 +69,18 @@
 	font-size: xx-large;
 }
 
+
+
+a.button {
+	padding: 1px 7px;
+    border: 1px;
+    border-radius: 8px;
+    color: rgb(7, 38, 50);
+    background: linear-gradient(to right, rgb(67, 124, 205), rgb(69, 214, 202));
+    text-decoration: none;
+	font-size:larger;
+}
+
 @media (max-aspect-ratio: 8/16) {
 	#nameplate {
 		font-size: x-large;
@@ -76,16 +88,6 @@
 	a.button {
 		font-size: large;
 	}
-}
-
-a.button {
-	padding: 1px 7px;
-    border: 1px;
-    border-radius: 8px;
-    color: rgb(7, 38, 50);
-	font-size:larger;
-    background: linear-gradient(to right, rgb(67, 124, 205), rgb(69, 214, 202));
-    text-decoration: none;
 }
 
 #temporaryHelpTip {
