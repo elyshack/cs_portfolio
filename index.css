@@ -1,0 +1,109 @@
+/* Info box at bottom */
+#infoBox {
+	align-self: center;
+	justify-self: center;;
+	position: absolute;
+	bottom: 50px;
+	left: 10vw;
+	right: 10vw;
+	max-width: 800px;
+	border-radius: 5;
+	border-color: blue;
+	text-align: center;
+	z-index: 100;
+	display:block;
+	color:aliceblue;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: larger;
+	animation: fadeIn 5s;
+}
+
+/* Text container at top, usually contains links or context */
+#displayBox {
+	align-self: center;
+	justify-self: center;;
+	position: absolute;
+	top: 70px;
+	left: 10vw;
+	right: 10vw;
+	max-width: 800px;
+	border-radius: 5;
+	border-color: blue;
+	text-align: center;
+	z-index: 100;
+	display:block;
+	color:aliceblue;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: larger;
+	opacity: 0;
+}
+
+#body {
+	width: 100vw;
+	height: 100vh;
+	flex-direction: column;
+	background-color: black;
+}
+
+#nameplate {
+	align-self: center;
+	justify-self: center;
+	position: absolute;
+	top: 10px;
+	left: 10vw;
+	right: 10vw;
+	max-width: 800px;
+	border-radius: 5;
+	border-color: blue;
+	text-align: center;
+	z-index: 100;
+	display:block;
+	color:aliceblue;
+	font-family: 'Courier New', Courier, monospace;
+	animation: fadeIn 5s;
+	background: linear-gradient(to right, rgb(67, 124, 205), rgb(69, 214, 202));
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: xx-large;
+}
+
+a.button {
+	padding: 1px 7px;
+    border: 1px;
+    border-radius: 8px;
+    color: rgb(7, 38, 50);
+	font-size:larger;
+    background: linear-gradient(to right, rgb(67, 124, 205), rgb(69, 214, 202));
+    text-decoration: none;
+}
+
+#temporaryHelpTip {
+	align-self: center;
+	justify-self: center;;
+	position: absolute;
+	top: 50px;
+	left: 10vw;
+	right: 10vw;
+	border-radius: 5;
+	border-color: blue;
+	text-align: center;
+	z-index: 100;
+	display:block;
+	color:aliceblue;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: larger;
+	animation: fadeInOut 8s;
+	opacity: 0;
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@keyframes fadeInOut {
+	0% { opacity: 0; }
+	20% { opacity: 0; }
+	80% { opacity: 1; }
+	100% { opacity: 0; }
+}
