@@ -67,7 +67,12 @@
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: xx-large;
-	white-space:nowrap;
+}
+
+@media (max-aspect-ratio: 8/16) {
+	#nameplate {
+		font-size: x-large;
+	}
 }
 
 a.button {
