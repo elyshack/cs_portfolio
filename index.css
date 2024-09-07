@@ -67,6 +67,7 @@
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: xx-large;
+	white-space:nowrap;
 }
 
 a.button {
