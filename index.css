@@ -73,6 +73,9 @@
 	#nameplate {
 		font-size: x-large;
 	}
+	a.button {
+		font-size: large;
+	}
 }
 
 a.button {
