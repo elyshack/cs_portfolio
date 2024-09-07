@@ -3,10 +3,11 @@
 	align-self: center;
 	justify-self: center;;
 	position: absolute;
-	bottom: 50px;
+	bottom: 5vh;
 	left: 10vw;
 	right: 10vw;
 	max-width: 800px;
+	max-height: 25vh;
 	border-radius: 5;
 	border-color: blue;
 	text-align: center;
@@ -23,7 +24,7 @@
 	align-self: center;
 	justify-self: center;;
 	position: absolute;
-	top: 70px;
+	top: 10vh;
 	left: 10vw;
 	right: 10vw;
 	max-width: 800px;
@@ -49,7 +50,7 @@
 	align-self: center;
 	justify-self: center;
 	position: absolute;
-	top: 10px;
+	top: 5vh;
 	left: 10vw;
 	right: 10vw;
 	max-width: 800px;
@@ -82,7 +83,7 @@ a.button {
 	align-self: center;
 	justify-self: center;;
 	position: absolute;
-	top: 50px;
+	top: 10vh;
 	left: 10vw;
 	right: 10vw;
 	border-radius: 5;
