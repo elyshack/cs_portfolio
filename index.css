@@ -90,6 +90,15 @@ a.button {
 	}
 }
 
+@media (max-width: 420px) {
+	#nameplate {
+		font-size: x-large;
+	}
+	a.button {
+		font-size: large;
+	}
+}
+
 #temporaryHelpTip {
 	align-self: center;
 	justify-self: center;;
